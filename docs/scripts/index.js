@@ -1,3 +1,4 @@
+getElementById()
 /*
 Access the form element using the method getElementById()
 The following URL will help you to do this:
@@ -81,4 +82,3 @@ Use this link to help https://www.w3schools.com/js/tryit.asp?filename=tryjs_form
 Also reset the output (tdCost). Use this link to help you do this
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_innerhtml_delete
 */
-
