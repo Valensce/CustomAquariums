@@ -7,4 +7,3 @@ Available via:
 ```
 x-github-client://openRepo/https://github.com/Valensce/JavaScript.git
 ```
-###### Hi, Sir!
