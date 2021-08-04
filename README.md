@@ -5,5 +5,5 @@ Available via:
 * [GitHub Pages](https://Valensce.github.io/JavaScript/)
 * [GitHub Desktop](https://desktop.github.com/) Clone (install and open this URL:)
 ```
-x-github-client://openRepo/https://github.com/Valensce/JavaScript.git
+x-github-client://openRepo/https://github.com/Valensce/T3-JS-Assignment.git
 ```
