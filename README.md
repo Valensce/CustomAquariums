@@ -1,4 +1,4 @@
-# T3-JS-Assignment
+# JavaScript
 ### Programming Assessment Task
 Available via:
 * [Raw Code](https://github.com/Valensce/JavaScript/tree/main/docs)
