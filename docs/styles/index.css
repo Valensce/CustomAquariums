@@ -1,7 +1,12 @@
 body {
 	margin: 0;
 }
-        
+
+a {
+	color: purple;
+	text-decoration: underline;
+}
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -9,11 +14,11 @@ ul.topnav {
     overflow: hidden;
     background-color: #333;
 }
-        
+
 ul.topnav li {
 	float: left;
 }
-        
+
 ul.topnav li a {
     display: block;
     color: white;
@@ -21,23 +26,23 @@ ul.topnav li a {
     padding: 14px 16px;
 	text-decoration: none;
 }
-        
+
 ul.topnav li a:hover:not(.active) {
 	background-color: orange;
 }
-        
+
 ul.topnav li a.active {
 	background-color: #72DDEE;
 }
-        
+
 ul.topnav li.right {
 	float: right;
 }
-        
+
 div {
 	padding:0 16px;
 }
-        
+
 h1 {
     color: #72DDEE;
     font-family: cursive;
