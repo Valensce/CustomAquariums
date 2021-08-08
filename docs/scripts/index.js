@@ -1,3 +1,15 @@
+/*
+Alerts
+*/
+home = function() {
+	alert("You are currently in our home page!");
+};
+
+news = function () {
+  alert("This is currently under progress, but Prado says it'll be complete soon 🐶")
+}
+
+
 getElementById()
 /*
 Access the form element using the method getElementById()
@@ -82,11 +94,3 @@ Use this link to help https://www.w3schools.com/js/tryit.asp?filename=tryjs_form
 Also reset the output (tdCost). Use this link to help you do this
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_innerhtml_delete
 */
-
-home = function() {
-	alert("You are currently in our home page!");
-};
-
-news = function () {
-  alert("This is currently under progress, but Prado says it'll be complete soon 🐶")
-}
