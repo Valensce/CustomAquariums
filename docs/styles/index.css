@@ -7,6 +7,10 @@ a {
 	text-decoration: underline;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
