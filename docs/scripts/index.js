@@ -31,7 +31,7 @@ https://www.w3schools.com/jsref/met_document_getelementbyid.asp
 */
 
 
-
+document.getElementById("Reset").onclick = function();
 document.getElementById("btnCalcCost").onclick = function();
 
 /*
