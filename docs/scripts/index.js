@@ -2,15 +2,20 @@
 Alerts
 */
 home = function() {
-	alert("You are currently in our home page!");
+	alert("You are currently in our home page!")
 };
 
 news = function () {
   alert("This is currently under progress, but Prado says it'll be complete soon 🐶")
-}
+};
 
 
-getElementById()
+var txtLength = document.getElementById("txtLength");
+
+var txtWidth = document.getElementById("txtWidth");
+
+var txtHeight = document.getElementById("txtHeight");
+
 /*
 Access the form element using the method getElementById()
 The following URL will help you to do this:
@@ -18,7 +23,7 @@ https://www.javascript-coder.com/javascript-form/getelementbyid-form/
 */
 
 
-
+var tdCost = document.getElementById("tdCost");
 /*
 Also store the tdCost id element as a variable.
 The following link will help you to do this:
@@ -27,6 +32,7 @@ https://www.w3schools.com/jsref/met_document_getelementbyid.asp
 
 
 
+document.getElementById("btnCalcCost").onclick = function();
 
 /*
 select the "Calculate Cost" and "Reset" buttons by
