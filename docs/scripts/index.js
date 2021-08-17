@@ -10,11 +10,6 @@ news = function () {
 };
 
 
-var txtLength = document.getElementById("txtLength");
-
-var txtWidth = document.getElementById("txtWidth");
-
-var txtHeight = document.getElementById("txtHeight");
 
 /*
 Access the form element using the method getElementById()
@@ -23,16 +18,19 @@ https://www.javascript-coder.com/javascript-form/getelementbyid-form/
 */
 
 
-var tdCost = document.getElementById("tdCost");
+var txtLength = document.getElementById("txtLength");
+
+var txtWidth = document.getElementById("txtWidth");
+
+var txtHeight = document.getElementById("txtHeight");
+
 /*
 Also store the tdCost id element as a variable.
 The following link will help you to do this:
 https://www.w3schools.com/jsref/met_document_getelementbyid.asp
 */
 
-
-document.getElementById("Reset").onclick = function();
-document.getElementById("btnCalcCost").onclick = function();
+var tdCost = document.getElementById("tdCost");
 
 /*
 select the "Calculate Cost" and "Reset" buttons by
@@ -46,7 +44,9 @@ https://www.w3schools.com/jsref/event_onclick.asp
 */
 
 
+document.getElementById("btnReset").onclick = reset();
 
+document.getElementById("btnCalcCost").onclick = finalCost();
 /*
 Create a function that calculates the surface area.
 
@@ -62,7 +62,11 @@ https://www.w3schools.com/js/js_functions.asp
 https://www.w3schools.com/jsref/jsref_isNaN.asp
 */
 
+function surfaceArea() {
+textlength*textWidth
+};
 
+var surfaceArea = surfaceArea();
 
 /*
 Create a function that calculates the length of the edges
@@ -74,7 +78,8 @@ At the beginning of your function get the value of each variable you
 created at the beginning of your program and store each value as a new variable.
 https://www.javascript-coder.com/javascript-form/getelementbyid-form/
 */
-
+function edgeLength() {
+};
 
 
 /*
@@ -90,7 +95,8 @@ Use the .toFixed() method to round the result to two decimal places.
 You can use the URL below to help you do this:
 https://www.w3schools.com/jsref/jsref_tofixed.asp
 */
-
+function finalCost() {
+};
 
 
 /*
@@ -100,3 +106,6 @@ Use this link to help https://www.w3schools.com/js/tryit.asp?filename=tryjs_form
 Also reset the output (tdCost). Use this link to help you do this
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_innerhtml_delete
 */
+
+function reset() {
+};
