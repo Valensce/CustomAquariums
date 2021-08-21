@@ -53,3 +53,39 @@ h1 {
     text-align: center;
 	font-size: 100px;
 }
+
+/* Navigation bar's CSS */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #72DDEE;
+}
+
+li {
+  float: left;
+  border-right:1px solid #070C1C;
+}
+
+#link {
+  color: white;
+  text-decoration: none;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #72DDEE;
+}
