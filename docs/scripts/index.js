@@ -63,11 +63,13 @@ https://www.w3schools.com/jsref/jsref_isNaN.asp
 */
 
 function surfaceArea() {
-textlength*textWidth
+surfaceArea.value = (2*l*h + 2*w*h + w*l)
 };
 
 var surfaceArea = surfaceArea();
-
+var h = txtHeight.value;
+var w = txtWidth.value;
+var l = txtLength.value;
 /*
 Create a function that calculates the length of the edges
 and returns the result.
@@ -78,9 +80,10 @@ At the beginning of your function get the value of each variable you
 created at the beginning of your program and store each value as a new variable.
 https://www.javascript-coder.com/javascript-form/getelementbyid-form/
 */
-function edgeLength() {
-};
 
+function edgeLength() {
+edgeLength.value = (4*h + 4*w + 4*l)
+};
 
 /*
 create a function that stores the results of the previous functions
