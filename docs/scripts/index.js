@@ -115,5 +115,5 @@ https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_innerhtml_de
 */
 
 function reset() {
-  document.getElementById("").innerHTML = "";
+  document.getElementById("btnReset").innerHTML = "";
 }
