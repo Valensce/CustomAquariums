@@ -63,7 +63,8 @@ https://www.w3schools.com/jsref/jsref_isNaN.asp
 */
 
 function surfaceArea() {
-surfaceArea.value = (2*l*h + 2*w*h + w*l)
+	var surfaceArea = (2*l*h + 2*w*h + w*l)
+	return surfaceArea;
 };
 
 var surfaceArea = surfaceArea();
@@ -82,8 +83,11 @@ https://www.javascript-coder.com/javascript-form/getelementbyid-form/
 */
 
 function edgeLength() {
-edgeLength.value = (4*h + 4*w + 4*l)
+	var edgeLength = (4*h + 4*w + 4*l);
+	return edgeLength;
 };
+
+
 
 /*
 create a function that stores the results of the previous functions
@@ -111,4 +115,5 @@ https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_innerhtml_de
 */
 
 function reset() {
-};
+  document.getElementById("").innerHTML = "";
+}
