@@ -114,6 +114,6 @@ Also reset the output (tdCost). Use this link to help you do this
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_innerhtml_delete
 */
 
-function reset() {
-  document.getElementById("btnReset").innerHTML = "";
+function myFunction() {
+  document.getElementById("Table").reset();
 }
