@@ -102,10 +102,21 @@ Use the .toFixed() method to round the result to two decimal places.
 You can use the URL below to help you do this:
 https://www.w3schools.com/jsref/jsref_tofixed.asp
 */
-function finalCost() {
+function finalCost  () {
+	var glass;
+	var glue = 10; 
+	if (height < 25) {
+  glass = 6;
+} 
+else {
+  glass = 10;
+}
+
 };
-
-
+var surfaceArea = sufaceArea (); {
+	var num = surfaceArea;
+    var n = num.toFixed(2);
+}
 /*
 Create a function named resetInputs to reset the inputs (Length, Width, Height).
 Use this link to help https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_reset
